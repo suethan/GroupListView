@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="here.wait.go.gouplistview.MainActivity" >
+
+    <here.wait.go.gouplistview.GroupListView
+        android:id="@+id/expandable_lv"
+        android:layout_width="match_parent"
+        android:groupIndicator="@null"
+        android:layout_height="match_parent" >
+    </here.wait.go.gouplistview.GroupListView>
+	
+    
+</FrameLayout>
